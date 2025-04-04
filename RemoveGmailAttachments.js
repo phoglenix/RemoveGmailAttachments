@@ -3,21 +3,7 @@
 // recreates the emails without the attachments. Make sure to set those values
 // to your liking before starting.
 //
-// To set up:
-// - Go to: https://script.google.com/ and make a new project.
-// - Put this script in the project (can just paste it in).
-// - Click the + next to Services and add the Gmail service.
-// - Create a folder in Drive and paste the ID in below.
-// 
-// Note: email replies often include attachments from the original message,
-// leading to duplicate attachments being exported, so you should run a
-// deduplication check on the exported files.
-// 
-// WARNING: Running this will move the processed original emails to your Gmail
-// trash bin. I strongly suggest checking some of the processed emails (especially
-// any noted in the execution log) to see that it operated correctly. It's
-// fundamentally just a hacky regex trying to parse emails so it's bound to have
-// issues on some weird emails.
+// See README.md for more info.
 
 // The folder ID to fill with email attachments. Grab it from the URL like:
 // https://drive.google.com/drive/u/1/folders/<DRIVE_FOLDER_ID>

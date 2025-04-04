@@ -8,7 +8,7 @@ recreates the emails without the attachments.
 ## Setup
 To set up:
 - Go to: https://script.google.com/ and make a new project.
-- Put this script in the project (can just paste it in).
+- Put the RemoveGmailAttachments script in the project (can just paste it in).
 - Click the + next to Services and add the Gmail service.
 - Create a folder in Drive and paste the ID from the URL into DRIVE_FOLDER_ID into the script.
 - Optional: change the QUERY value in the script if desired.
